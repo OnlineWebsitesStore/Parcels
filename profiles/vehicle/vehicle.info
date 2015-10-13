@@ -1,0 +1,47 @@
+name = Vehicle
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Contrib modules
+
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = rules
+dependencies[] = jquery_update
+dependencies[] = devel
+dependencies[] = metatag
+dependencies[] = owlcarousel
+dependencies[] = pathauto
+dependencies[] = profile2
+
+
+
+; Information added by Drupal.org packaging script on 2015-08-19
+version = "7.39"
+project = "drupal"
+datestamp = "1444749900"
+

@@ -39,6 +39,7 @@ dependencies[] = variable
 dependencies[] = owlcarousel
 dependencies[] = pathauto
 dependencies[] = profile2
+dependencies[] = libraries
 
 
 

@@ -1,4 +1,4 @@
-name = Vehicle
+name = Parcels
 description = Install with commonly used features pre-configured.
 version = VERSION
 core = 7.x

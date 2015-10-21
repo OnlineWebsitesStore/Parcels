@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function vehicle_install() {
+function parcels_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
@@ -69,7 +69,7 @@ function vehicle_install() {
   filter_format_save($full_html_format);
 
   // Enable some standard blocks.
-  $default_theme = variable_get('theme_default', 'vehicle');
+  $default_theme = variable_get('theme_default', 'parcels');
   $admin_theme = 'seven';
   $blocks = array(
     array(
@@ -287,12 +287,12 @@ function vehicle_install() {
     ->condition('name', 'seven')
     ->execute();
   
-  variable_set('theme_default', 'vehicle');
+  variable_set('theme_default', 'parcels');
   // Enable the admin theme.
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'vehicle')
+    ->condition('name', 'parcels')
     ->execute();
     
   variable_set('admin_theme', 'seven');

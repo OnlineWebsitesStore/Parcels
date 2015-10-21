@@ -1,5 +1,5 @@
-name = Vehicle
-description = Vehicle bootstrap sub theme
+name = parcels
+description = parcels bootstrap sub theme
 core = 7.x
 base theme = bootstrap
 

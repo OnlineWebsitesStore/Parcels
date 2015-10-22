@@ -57,6 +57,14 @@ stylesheets[all][] = font-awesome/css/font-awesome.min.css
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
 ; settings[bootstrap_cdn] = ''
 
+scripts[] = 'js/gmap3.min.js'
+scripts[] = 'js/jquery.jcarousel.min.js'
+scripts[] = 'js/imagesloaded.pkgd.min.js'
+scripts[] = 'js/masonry.pkgd.min.js'
+scripts[] = 'js/jquery.backstretch.js'
+scripts[] = 'js/jquery.nicescroll.min.js'
+scripts[] = 'js/script.js'
+
 
 ; ;-------------------------
 ; ; METHOD 2: Bootstrap CDN

@@ -447,6 +447,7 @@ input[type="color"]:focus,
 }
 
 #header.heading{
+	background-image: url(../img/img01.jpg);
 	position: relative;
 	min-height: 200px;
 	padding-top: 40px;
@@ -2133,3 +2134,5 @@ input[type="color"]:focus,
 .copyright .social-links > li > .icon-gplus:hover{
 	background: #ff4b4b;
 }
+
+/*****************/
